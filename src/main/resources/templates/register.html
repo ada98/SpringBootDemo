@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="static/css/login/register.css">
+<script type="application/javascript" src="static/js/jquery-3.4.1.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <a class="header_logo" href="/">旱器平台</a>
+    </div>
+    <div class="content">
+        <div class="register_msg" style="display: none;"> 页面错误信息，如网络等
+        </div>
+        <div class="content_wrapper">
+            <div class="register_container">
+                <div class="register_card">
+                    <form id="registerForm" autocomplete="off" name="registerForm" action="" method="post">
+                        <div class="nickArea" id="nickArea">
+                            <div class="input-flags">
+                                <div class="input-ok"></div>
+                            </div>
+                            <label class="input_tips">账号昵称不可更改</label>
+                            <div class="inputOuter">
+                                <input type="text" class="inputstyle" id="nick" name="nick">
+                            </div>
+                            <div class="msg-tips-group">
+                                <div class="msg-tips">不能包括空格</div>
+                                <div class="msg-tips">长度为1-9个字符</div>
+                                <div class="msg-tips">您不能使用该昵称注册</div>
+                            </div>
+                        </div>
+                        <div class="uinArea" id="uinArea">
+                            <div class="input-flags">
+                                <div class="input-ok"></div>
+                            </div>
+                            <label class="input_tips">登录账号</label>
+                            <div class="inputOuter">
+                                <input type="text" class="inputstyle" id="uin" name="uin">
+                            </div>
+                            <div class="msg-tips-group">
+                                <div class="msg-tips">不能包括空格</div>
+                                <div class="msg-tips">长度为4-12个字符</div>
+                                <div class="msg-tips">您不能使用该账号注册</div>
+                            </div>
+                        </div>
+                        <div class="pwdArea">
+                            <div class="input-flags">
+                                <div class="input-ok"></div>
+                            </div>
+                            <label class="input_tips">登录密码</label>
+                            <div class="inputOuter">
+                                <input type="password" class="inputstyle" id="pwd" name="pwd">
+                            </div>
+                            <div class="msg-tips-group">
+                                <div class="msg-tips">不能包括空格</div>
+                                <div class="msg-tips">长度为8-16个字符</div>
+                                <div class="msg-tips">必须包含字母、数字、符号中至少2种</div>
+                            </div>
+                        </div>
+                        <div class="telArea">
+                            <div class="input-flags">
+                                <div class="input-ok"></div>
+                            </div>
+                            <label class="input_tips">中国手机号码</label>
+                            <div class="inputOuter">
+                                <input type="text" class="inputstyle" id="tel" name="tel">
+                            </div>
+                            <div class="msg-tips-group">
+                                <div class="msg-tips">手机号码格式不正确</div>
+                            </div>
+                        </div>
+                        <!--<div class="telMArea">
+                            <div class="messgeArea">
+                                <div class="input-flags">
+                                    <div class="input-ok"></div>
+                                </div>
+                                <label class="input_tips">tel 手机号码</label>
+                                <div class="inputOuter">
+                                    <input type="text" class="inputstyle" id="tel" name="tel">
+                                </div>
+                                <div class="msg-tips-group">
+                                    <div class="msg-tips">手机号码格式不正确</div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="register_button" href="javascript:void(0);">
+                                    <input type="button" value="发送短信验证码" class="btn" id="sendMsgBtn">
+                                </a>
+                            </div>
+                        </div>-->
+
+                        <div class="submitArea">
+                            <a class="register_button" href="javascript:void(0);">
+                                <input id="get_acc" type="submit" class="submit" value="立即注册">
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="register_pictures">
+                注册显示图片
+                <div class="register_pictures_picture">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        footer 底部显示内容
+    </div>
+</div>
+
+<script type="application/javascript" src="static/js/login/register.js"></script>
+</body>
+</html>

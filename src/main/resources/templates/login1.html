@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../layui/css/layui.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div {
+        display: block;
+    }
+    .container {
+        min-height: 500px;
+    }
+    .header {
+        height: 62px;
+        overflow: hidden;
+        zoom: 1;
+        border-bottom: 1px solid #d6dfea;
+        background: #eff4fa;
+    }
+    .header_logo {
+        float: left;
+        width: 182px;
+        height: 35px;
+        margin-top: 14px;
+        margin-left: 17px;
+        text-indent: -9999em;
+        background-size: 182px 35px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-image: url(/zh_CN/htmledition/images/webp/logo/qqmail/qqmail_logo_default_35h206ff1.png);
+    }
+    .content {
+        width: 960px;
+        margin: 32px auto;
+        padding: 0 24px;
+    }
+    .login_msg {
+        padding: 18px 5px;
+        color: #7e4f01;
+        line-height: 18px;
+        background: none;
+        border-bottom: 2px solid #dcdcdc;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .content_wrapper {
+        min-height: 372px;
+        padding-top: 40px;
+        margin: 0 20px 60px 25px;
+    }
+    .login_container {
+        float: right;
+        border: 1px solid #a0b1c4;
+        width: 334px !important;
+        height: 387px !important;
+        _height: 371px;
+        background-color: #fff;
+        position: relative;
+        z-index: 12;
+        padding: 0;
+        border-radius: 5px;
+        overflow: hidden;
+        visibility: visible;
+    }
+    .login_pictures {
+        position: relative;
+        margin-right: 395px;
+    }
+
+    .login_pictures_picture {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 400px;
+        background-repeat: no-repeat;
+        ackground-image: url(https://rescdn.qqmail.com/zh_CN/htmledition/images/webp/tg-mj1e9c5d.jpg);
+        background-position: right 20px;
+    }
+    .login_card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .login_card_tab {
+        height: 50px;
+        font-size: 0;
+        border-bottom: 1px solid #a0b1c4;
+        background-color: #f9fbfe;
+        border-radius: 6px 6px 0 0;
+    }
+    .login_card_cnt {
+        position: relative;
+        width: 100%;
+        height: 336px;
+    }
+    .login_card_tab_item {
+        float: left;
+        width: 50%;
+        font-size: 16px;
+        line-height: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .login_card_tab_item_Active {
+        color: #333;
+    }
+    .login_card_wx {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .web_login .uinArea {
+        position: relative;
+        z-index: 10;
+    }
+    .uinArea {
+        height: 50px;
+    }
+    .web_login .input_tips, .web_login .input_tips_focus {
+        top: 12px;
+    }
+    .web_login .input_tips, .web_login .input_tips_focus {
+        position: absolute;
+        left: 13px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #aaa;
+        cursor: text;
+    }
+    .web_login .inputstyle {
+        top: 0px;
+        padding: 10px 40px 10px 10px;
+        left: 0px;
+        border-radius: 3px;
+        width: 232px;
+    }
+    .web_login .inputOuter {
+        background: none;
+        border: 1px solid #96a5b4;
+        height: 38px;
+        width: 282px;
+        border-radius: 2px;
+    }
+    .web_login .uin_del {
+        right: 10px;
+        height: 22px;
+        width: 22px;
+        background: url(/zh_CN/htmledition/images/ptlogin_delete1e9c5d.png) 0 0 no-repeat;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        clear: both;
+        line-height: 36px;
+        text-align: center;
+        color: #b6b6b6;
+        background-color: #eff4fa;
+        border-top: 1px solid #d6dfea;
+    }
+
+</style>
+<body>
+<div class="container">
+    <div class="header">
+        <a class="header_logo" href="/">互助平台</a>
+    </div>
+    <div class="content">
+        <div class="login_msg" style="display: none;"> 页面错误信息，如网络等
+        </div>
+        <div class="content_wrapper">
+            <div class="login_container">
+                <div class="login_card">
+                    <div class="login_card_tab">
+                        <div class="login_card_tab_item" id="wxLoginTab">账号登录</div>
+                        <!-- <div class="login_card_tab_item login_card_tab_item_Active" id="qqLoginTab">社交登录</div> -->
+                    </div>
+                    <div class="login_card_cnt">
+                        <div class="login_card_wx" id="wxLoginCard">
+                            <!--<iframe id="login_wx_iframe" class="login_loginBox_wx_iframe" height="100%" width="100%" frameborder="no" scrolling="no" src=""></iframe>-->
+                            <div class="web_qr_login" id="web_qr_login" style="height: 330px;">
+                                <div class="web_qr_login_show" id="web_qr_login_show">
+                                    <div class="web_login" id="web_login">
+                                        <div class="tips" id="tips">
+                                            <!-- 用来提示浏览器脚本是否禁用 -->
+                                        </div>
+                                        <div class="login_form">
+                                            <form id="loginform" autocomplete="off" name="loginform" action="" method="post" target="1" style="margin:0px;">
+                                                <div class="uinArea" id="uinArea">
+                                                    <label class="input_tips" id="uin_tips" for="u" style="display: block;">支持QQ号/邮箱/手机号登录</label>
+                                                    <div class="inputOuter">
+                                                        <input type="text" class="inputstyle" id="u" name="u" value="" tabindex="1">
+                                                        <a class="uin_del" id="uin_del" href="javascript:void(0);" style="display: none;"></a>
+                                                    </div>
+                                                    <ul class="email_list" id="email_list" style="display: none;"></ul>
+                                                </div>
+                                                <div class="pwdArea" id="pwdArea">
+                                                    <label class="input_tips_focus" id="pwd_tips" for="p" style="display: none;">QQ密码</label>
+                                                    <div class="inputOuter">
+                                                        <input type="password" class="inputstyle password" id="p" name="p" value="" maxlength="16" tabindex="2">
+                                                    </div>
+                                                </div>
+                                                <div class="verifyArea" id="verifyArea">
+                                                    <div class="verifyinputArea" id="verifyinputArea">
+                                                        <label class="input_tips" id="vc_tips" for="verifycode">验证码</label>
+                                                        <div class="inputOuter">
+                                                            <input name="verifycode" type="text" class="inputstyle verifycode" id="verifycode" value="" tabindex="3">
+                                                        </div>
+                                                    </div>
+                                                    <div class="verifyimgArea" id="verifyimgArea"><img class="verifyimg" id="verifyimg" title="看不清，换一张">
+                                                        <a tabindex="4" href="javascript:void(0);" class="verifyimg_tips">看不清，换一张</a>
+                                                    </div>
+                                                </div>
+                                                <div class="submit">
+                                                    <a class="login_button" href="javascript:void(0);" hidefocus="true">
+                                                        <input type="submit" tabindex="6" value="登 录" class="btn" id="login_button">
+                                                    </a>
+                                                    <div title="为了确保你的信息安全，不建议在网吧等公共环境勾选此项" class="low_login" id="p_low_login_box">
+                                                        <a class="uncheck" id="p_low_login_enable" href="javascript:void(0);" tabindex="5"></a>
+                                                        <label class="low_login_wording" id="low_login_wording">下次自动登录</label>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div id="onekey_verify">
+                                            <span class="ov-retry" id="ov_retry_wrap">没收到？
+                                                <a id="ov_retry" href="javascript: void(0);">请重试</a>
+                                            </span>
+                                            <span class="ov-tips timeout">长时间未确认，验证消息已过期，
+                                                <a id="ov_back" href="javascript: void(0);">请重新登录&gt;&gt;</a>
+                                            </span><div class="ov-scene">
+
+                                        </div>
+                                        </div>
+                                        <div class="bottom" id="bottom_web" style="display: block;">
+                                            <a href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account" class="link" id="forgetpwd" target="_blank">忘了密码？</a>
+                                            <span class="dotted">|</span>
+                                            <a href="http://zc.qq.com/chs/index.html?type=1" class="link" target="_blank">注册新帐号</a>
+                                            <span class="dotted">|</span>
+                                            <a class="link" id="feedback_web" href="http://support.qq.com/discuss/350_1.shtml" target="_blank">意见反馈</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="login_card_state">
+                                <p id="auto_login" data-check="0"><a></a><span>下次自动登录</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login_pictures">
+                登陆图片
+                <div class="login_pictures_picture">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</div>
+</body>
+</html>

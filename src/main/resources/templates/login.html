@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="static/css/login/login.css">
+<script type="application/javascript" src="static/js/jquery-3.4.1.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <a class="header_logo" href="/">旱器平台</a>
+    </div>
+    <div class="content">
+        <div class="login_msg" style="display: none;"> 页面错误信息，如网络等
+        </div>
+        <div class="content_wrapper">
+            <div class="login_container">
+                <div class="login_card">
+                    <div class="login_card_tab">
+                        <div class="login_card_tab_item" id="loginTab">账号登录</div>
+                        <!-- <div class="" id="qqLoginTab">qq登录</div> -->
+                    </div>
+                    <div class="login_card_cnt">
+                        <div class="login_card_zh">
+                            <form id="zhLoginForm" autocomplete="off" name="loginForm" action="submit" method="post">
+                                <input type="hidden" name="_method" value="put"/>
+                                <div class="uinArea" id="uinArea">
+                                    <label class="input_tips" id="uin_tips" style="display: block;">登录账号</label>
+                                    <div class="inputOuter">
+                                        <input type="text" class="inputstyle" id="u" name="u" tabindex="1">
+                                        <a class="uin_del" id="uin_del" href="javascript:void(0);" style="display: none;"></a>
+                                    </div>
+                                    <ul class="email_list" id="email_list" style="display: none;"></ul>
+                                </div>
+                                <div class="pwdArea" id="pwdArea">
+                                    <label class="input_tips_focus" id="pwd_tips" style="display: block;">账号密码</label>
+                                    <div class="inputOuter">
+                                        <input type="password" class="inputstyle password" id="p" name="p" value="" maxlength="16" tabindex="2">
+                                    </div>
+                                </div>
+                                <div class="verifyArea" id="verifyArea">
+                                    <div class="verifyinputArea" id="verifyinputArea">
+                                        <label class="input_tips" id="vc_tips">验证码</label>
+                                        <div class="inputOuter">
+                                            <input name="verifycode" type="text" class="inputstyle verifycode" id="verifycode" value="" tabindex="3">
+                                        </div>
+                                    </div>
+                                    <div class="verifyimgArea" id="verifyimgArea">
+                                        <img class="verifyimg" id="verifyimg" title="看不清，换一张">
+                                        <a tabindex="4" id="verifyimgA" class="verifyimg_tips">看不清,换一张?</a>
+                                    </div>
+                                    <div>
+                                        <p id="msgInfo"></p>
+                                    </div>
+                                </div>
+                                <div class="submitArea">
+                                    <a class="login_button" href="javascript:void(0);">
+                                        <input type="submit" value="登 录" class="btn" id="login_button">
+                                    </a>
+                                    <a class="login_button" href="javascript:void(0);">
+                                        <input type="button" value="注 册" class="btn" id="login_register">
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login_pictures">
+                登陆图片
+                <div class="login_pictures_picture">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</div>
+
+<script type="application/javascript" src="static/js/login/login.js"></script>
+</body>
+</html>

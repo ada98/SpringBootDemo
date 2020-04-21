@@ -1,0 +1,112 @@
+2020-04-21 00:00:27.795 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:00:29.689 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398429689 sessioncount 0
+2020-04-21 00:00:29.689 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:00:57.812 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:01:27.813 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:01:29.724 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398489724 sessioncount 0
+2020-04-21 00:01:29.724 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:02:26.523  WARN 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=58s720ms549µs901ns).
+2020-04-21 00:02:26.523 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:02:56.524 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:02:58.468 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398578468 sessioncount 0
+2020-04-21 00:02:58.468 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:03:26.525 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:03:56.527 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:03:58.517 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398638517 sessioncount 0
+2020-04-21 00:03:58.517 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:04:26.541 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:04:56.546 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:04:58.554 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398698554 sessioncount 0
+2020-04-21 00:04:58.554 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:05:26.560 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:05:56.561 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:05:58.611 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398758611 sessioncount 0
+2020-04-21 00:05:58.611 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:06:26.577 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:06:56.591 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:06:58.660 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398818660 sessioncount 0
+2020-04-21 00:06:58.660 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:07:26.597 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:07:56.605 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:07:58.705 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398878705 sessioncount 0
+2020-04-21 00:07:58.705 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:08:26.606 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:08:29.913 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5fda0c0a: (connection has passed maxLifetime)
+2020-04-21 00:08:29.944 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b53b95b
+2020-04-21 00:08:46.946 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23048b1f: (connection has passed maxLifetime)
+2020-04-21 00:08:46.978 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a44d937
+2020-04-21 00:08:50.192 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ad787fb: (connection has passed maxLifetime)
+2020-04-21 00:08:50.223 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ef39e03
+2020-04-21 00:08:50.523 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1bb40ad1: (connection has passed maxLifetime)
+2020-04-21 00:08:50.556 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ac8d38c
+2020-04-21 00:08:51.087 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4396a104: (connection has passed maxLifetime)
+2020-04-21 00:08:51.119 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b27c48c
+2020-04-21 00:08:56.620 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:08:58.719 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398938719 sessioncount 0
+2020-04-21 00:08:58.719 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:09:05.459 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2064bd8b: (connection has passed maxLifetime)
+2020-04-21 00:09:05.490 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285a843d
+2020-04-21 00:09:13.107 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@652fed7d: (connection has passed maxLifetime)
+2020-04-21 00:09:13.138 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f9850f5
+2020-04-21 00:09:26.336 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ee0d300: (connection has passed maxLifetime)
+2020-04-21 00:09:26.336 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11213024
+2020-04-21 00:09:26.635 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:09:47.338 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d12ce54: (connection has passed maxLifetime)
+2020-04-21 00:09:47.369 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32405de2
+2020-04-21 00:09:48.568 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29c2a4db: (connection has passed maxLifetime)
+2020-04-21 00:09:48.579 DEBUG 12948 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46ff1756
+2020-04-21 00:09:56.641 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:09:58.751 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587398998751 sessioncount 0
+2020-04-21 00:09:58.751 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:10:26.646 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:10:56.651 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:10:58.801 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399058801 sessioncount 0
+2020-04-21 00:10:58.801 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:11:26.665 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:11:56.667 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:11:58.860 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399118860 sessioncount 0
+2020-04-21 00:11:58.860 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:12:26.683 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:12:56.687 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:12:58.871 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399178871 sessioncount 0
+2020-04-21 00:12:58.871 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:13:26.688 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:13:56.690 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:13:58.885 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399238885 sessioncount 0
+2020-04-21 00:13:58.885 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:14:26.694 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:14:56.696 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:14:58.897 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399298897 sessioncount 0
+2020-04-21 00:14:58.897 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:15:26.709 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:15:56.724 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:15:58.917 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399358917 sessioncount 0
+2020-04-21 00:15:58.917 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:16:26.731 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:16:56.732 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:16:58.956 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399418956 sessioncount 0
+2020-04-21 00:16:58.956 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:17:26.748 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:17:56.750 DEBUG 12948 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:17:58.971 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1587399478971 sessioncount 0
+2020-04-21 00:17:58.971 DEBUG 12948 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2020-04-21 00:18:13.907 DEBUG 12948 --- [Thread-25] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3ecdd3f1, started on Mon Apr 20 16:09:02 CST 2020
+2020-04-21 00:18:13.908 DEBUG 12948 --- [Thread-25] o.s.c.e.PropertySourcesPropertyResolver  : Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-21 00:18:13.916 DEBUG 12948 --- [Thread-25] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2020-04-21 00:18:13.917 DEBUG 12948 --- [Thread-25] o.s.c.support.DefaultLifecycleProcessor  : Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2020-04-21 00:18:13.920 DEBUG 12948 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-04-21 00:18:13.920 DEBUG 12948 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2020-04-21 00:18:13.922  INFO 12948 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-21 00:18:13.922 DEBUG 12948 --- [Thread-25] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2020-04-21 00:18:13.923 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b53b95b: (connection evicted)
+2020-04-21 00:18:13.923 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a44d937: (connection evicted)
+2020-04-21 00:18:13.924 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ef39e03: (connection evicted)
+2020-04-21 00:18:13.925 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ac8d38c: (connection evicted)
+2020-04-21 00:18:13.925 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b27c48c: (connection evicted)
+2020-04-21 00:18:13.926 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@285a843d: (connection evicted)
+2020-04-21 00:18:13.926 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f9850f5: (connection evicted)
+2020-04-21 00:18:13.926 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11213024: (connection evicted)
+2020-04-21 00:18:13.926 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32405de2: (connection evicted)
+2020-04-21 00:18:13.926 DEBUG 12948 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@46ff1756: (connection evicted)
+2020-04-21 00:18:13.927 DEBUG 12948 --- [Thread-25] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2020-04-21 00:18:13.927  INFO 12948 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

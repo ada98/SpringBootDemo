@@ -1,0 +1,189 @@
+div {
+    display: block;
+}
+.container {
+    min-height: 500px;
+}
+.header {
+    height: 62px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #d6dfea;
+    background: #eff4fa;
+}
+.header_logo {
+    float: left;
+    width: 182px;
+    height: 35px;
+    margin-top: 14px;
+    margin-left: 17px;
+    text-indent: -9999em;
+    background-size: 182px 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.content {
+    width: 960px;
+    margin: 32px auto;
+    padding: 0 24px;
+}
+.register_msg {
+    padding: 18px 5px;
+    color: #7e4f01;
+    line-height: 18px;
+    background: none;
+    border-bottom: 2px solid #dcdcdc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content_wrapper {
+    min-height: 372px;
+    padding-top: 40px;
+    margin: 0 20px 60px 25px;
+}
+.register_container {
+    float: right;
+    border: 1px solid #a0b1c4;
+    width: 334px !important;
+    height: 387px !important;
+    _height: 371px;
+    background-color: #fff;
+    position: relative;
+    z-index: 12;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    visibility: visible;
+}
+.register_pictures {
+    position: relative;
+    margin-right: 395px;
+}
+.register_pictures_picture {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right 20px;
+}
+/* 注册组件css */
+.register_card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 22px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+.register_card .input_tips {
+    top: 12px;
+    position: absolute;
+    left: 13px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #aaa;
+    display: block;
+}
+.register_card .inputstyle {
+     top: 0px;
+     padding: 10px 40px 10px 10px;
+     left: 0px;
+     border-radius: 3px;
+     width: 232px;
+     font-size: 15px;
+     border: 1px solid #96a5b4;
+ }
+.register_card .inputNo {
+    border: 1px solid red !important;
+}
+
+.register_card .input-flags{
+    position: absolute;
+    right: 0;
+    height: 52px;
+    z-index: 1;
+}
+.register_card .input-flags .input-ok{
+    background: url(/static/image/login/tick.png) no-repeat;
+    width: 20px;
+    height: 15px;
+    display: none;
+    float: right;
+    margin-right: 55px;
+    margin-top: 12px;
+}
+.register_card .msg-tips{
+    background-image:url(/static/image/login/error.png);
+    background-image:-webkit-image-set(
+            url(/static/image/login/error.png) 1x,
+            url(/static/image/login/error.png) 2x);
+    background-repeat:no-repeat;
+    display: none;
+    font-size: 13px;
+    padding-left: 20px;
+    color: red;
+    margin-top: 5px;
+    height: 20px;
+}
+.register_card .ok{
+    display: block;
+}
+.register_card .nickArea{
+    position: relative;
+    z-index: 10;
+    height: auto;
+    min-height: 60px;
+}
+.register_card .uinArea{
+    position: relative;
+    z-index: 10;
+    height: auto;
+    min-height: 60px;
+}
+.register_card .pwdArea{
+    position: relative;
+    z-index: 10;
+    height: auto;
+    min-height: 60px;
+}
+.register_card .telArea{
+    position: relative;
+    z-index: 10;
+    height: auto;
+    min-height: 60px;
+}
+.register_card .submit {
+    border: 1px #3083ff solid;
+    border-radius: 4px;
+    background-color: #3487ff;
+    box-shadow: 0 5px 8px 0 rgba(24,95,255,.1);
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    background-image: linear-gradient(0deg,#398bff,#3083ff);
+    width: 85%;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    clear: both;
+    line-height: 36px;
+    text-align: center;
+    color: #b6b6b6;
+    background-color: #eff4fa;
+    border-top: 1px solid #d6dfea;
+}

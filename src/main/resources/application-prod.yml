@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    #dev 开发环境 test 测试环境 prod 生成环境
+    active: dev
+  # 这个开发配置为false，避免改了模板还要重启服务器
+  thymeleaf: cache=false
+  # 这个是配置模板路径的，默认就是templates，可不用配置
+  prefix: classpath:/templates/
+  # 这个可以不配置，检查模板位置
+  check-template-location: true
+  # 下面3个不做解释了，可以不配置
+  suffix: html
+  encoding: UTF-8
+  ervlet.content-type: text/html
+  # 模板的模式
+  mode: HTML5

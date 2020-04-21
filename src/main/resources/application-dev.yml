@@ -1,0 +1,34 @@
+server:
+  port: 80
+
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+
+spring:
+  datasource:
+    username: root
+    password: ada
+    url: jdbc:mysql://localhost:3306/shangjin?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath*:mapping/*.xml
+  type-aliases-package: com.example.demo2.business
+
+logging:
+  path: /Users/jackie/workspace/rome/
+  file: springbootdemo.log
+  level:
+    root: debug
+
+#分页插件
+
+showSql:
+  logging:
+    level:
+      com:
+        example:
+          mapper : debug

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<title>login UI</title>
+    <link rel="stylesheet" href="static/css/login/imageSlide.css">
+    <script type="application/javascript" src="static/js/jquery-3.4.1.min.js"></script>
+<!--
+    <script type="application/javascript" src="static/js/html/imageSlide.js"></script>
+-->
+</head>
+<body>
+
+<div class="box">
+    <div class="imgBox">
+        <div class="imgBox">
+            <img class="verImg" src="/static/image/slideImage/测试1c.png">
+            <div class="verify" style="display: block; background-image: url(/static/image/slideImage/测试1s.png); top: 150px; background-position: 0px 0px; left: 10px;"></div>
+        </div>
+    </div>
+    <div class="handle">
+        <span class="swiper"></span>
+        <span class="text">拖动滑块</span>
+    </div>
+    <div class="refreshBox">
+        <span class="refresh">点击切换图片</span>
+    </div>
+</div>
+<script type="application/javascript">
+    var box = $('.box'),
+        imgBox = $('.imgBox'),
+        handle = $('.handle'),
+        swiper = $('.swiper'),
+        text = $('.text'),
+        verify = $('.verify'),
+        verified = $('.verified'),
+        refresh = $('.refresh');
+    $(function() {
+        verify.mousedown(function () {
+            e = event || window.event;
+            e.stopPropagation();
+            var disX = e.clientX - $(this).offset().left,
+                disY = e.clientY - $(this).offset().top
+            console.log(disX);
+
+        });
+
+
+    });
+
+</script>
+</body>
+</html>

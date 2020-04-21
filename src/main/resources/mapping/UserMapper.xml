@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo2.business.basic.mapper.UserMapper">
+
+    <select id="login" resultType="com.example.demo2.business.basic.vo.User">
+        select * from user where u_login_name = #{uLoginName} and u_password=#{uPassword} and u_is_del=0
+    </select>
+
+    <select id="findByUnickName" resultType="int" parameterType="String">
+        select count(1) from user where u_is_del=0 and u_nick_name=#{uNickName}
+    </select>
+
+    <select id="findByULoginName" resultType="int" parameterType="String">
+        select count(1) from user where u_is_del=0 and u_login_name=#{uLoginName}
+    </select>
+
+    <select id="findByUnickNameAndUloginName" resultType="int" parameterType="String">
+        select count(1) from user where u_is_del=0 and (u_nick_name=#{uNickName} or u_login_name=#{uLoginName} )
+    </select>
+
+    <insert id="addUser" parameterType="String">
+        <selectKey keyProperty="uid" resultType="String" order="BEFORE">
+            select REPLACE(UUID(),"-","")
+        </selectKey>
+        insert into user(u_id,u_login_name,u_nick_name,u_password,u_tel,u_is_del) values(#{uid},#{uLoginName},#{uNickName},#{uPassword},#{uTel},'0');
+    </insert>
+
+</mapper>
