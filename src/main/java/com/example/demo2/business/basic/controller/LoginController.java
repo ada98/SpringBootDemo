@@ -6,13 +6,16 @@ import com.example.demo2.util.ImageSecurityUtil;
 import com.example.demo2.util.ImageUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.catalina.security.SecurityUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.imageio.ImageIO;
+import javax.jms.Destination;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -24,6 +27,8 @@ import java.util.Map;
 public class LoginController {
     @Autowired
     private UserService userService;
+    @Autowired
+    private JmsMessagingTemplate jmsMessagingTemplate;
 
     @ApiOperation(value = "跳转登陆页面", notes = "跳转登陆页面")
     @RequestMapping(value = "/login")
@@ -58,7 +63,12 @@ public class LoginController {
     @ApiOperation(value = "登陆", notes = "登陆")
     @PutMapping(value="submit")
     public ModelAndView submit(HttpServletRequest request,ModelAndView mv) throws Exception {
-        String userName=request.getParameter("u" );
+        Destination destination = new ActiveMQQueue("web-queue");
+        for (int i = 0; i < 10 ; i++){
+            jmsMessagingTemplate.convertAndSend(destination, "topic"+i);
+        }
+        mv.setViewName("login");
+        /*String userName=request.getParameter("u" );
         String password=request.getParameter("p");
         String vCode=request.getParameter("verifycode");
         String code=request.getSession().getAttribute("code").toString();
@@ -85,7 +95,7 @@ public class LoginController {
                     mv.addObject("info","账号或密码错误，请重新登陆");
                 }
             }
-        }
+        }*/
         return mv;
     }
 
